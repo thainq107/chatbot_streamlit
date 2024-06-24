@@ -1,0 +1,2 @@
+streamlit==1.36.0
+hugchat==0.4.8
