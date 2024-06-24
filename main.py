@@ -8,6 +8,7 @@ st.title('Simple ChatBot')
 # Hugging Face Credentials
 with st.sidebar:
     st.title('Login HugChat')
+    st.text('Huggingface Account')
     hf_email = st.text_input('Enter E-mail:')
     hf_pass = st.text_input('Enter Password:', type='password')
     if not (hf_email and hf_pass):
